@@ -1,0 +1,592 @@
+﻿<html>
+<head>
+<title>බහුමාධ්‍ය තාක්ෂණය සහිත වෙබ් අඩවි නිර්මාණය</title>
+</head>
+<body background="images/background.png" style="background-repeat:no-repeat" link="#0066FF" alink="#FF0000" vlink="#0066FF">
+<a name="Menus">
+</a>
+<a href="ime/ime.html" target="_blank"><img align="right" src="ime/ime.png" title="Sinhala Tamil IME මෘදුකාංගය ලබාගන්න"  border="0"></a>
+<a href="firefox/firefox.html" target="_blank"><img align="right" src="firefox/firefox.png" title="Mozilla Firefox මෘදුකාංගය ලබාගන්න"  border="0"></a>
+<center>
+<h1><img src="images/earth.png"> බහුමාධ්‍ය තාක්ෂණය සහිත වෙබ් අඩවි නිර්මාණය</h1>
+</center>
+<center>
+<img src="menu/3.png" border="0" usemap="#buttonbar">
+<map name="buttonbar">
+<a href="index.html" shape="rect" coords="37,13,183,71"></a>
+<a href="html.html" shape="rect" coords="190,13,411,71"></a>
+<a href="web.html" shape="rect" coords="417,13,641,71"></a>
+</map>
+</center>
+<hr color="#OOOOOO" size=5 width="80%">
+<tt>
+<a href="codes/web_codes.html" target="_blank"><img src="images/view_source.png" align="right" border=0></a>
+<font size=5>
+<font color="#0066CC">
+HTML (Hyper Text Markup Language) යොදා ගනිමින් සරළ වෙබ් අඩවියක් නිර්මාණය කරගැනීම:
+</font color>
+</font size>
+</tt>
+<br><br>
+<table  width="80%" border=3 style="border-color:#00CC33">
+<tr><th style="background-color:#E1FFE9">
+<font size=4>
+<a href="web.html" title="වෙබ් අඩවි නිර්මාණයේ මූලික කොටස්" style="text-decoration:none"><font color="red">පළමු කොටස</font></a>
+|
+<a href="web2.html" title="වෙබ් අඩවි නිර්මාණයේ භාවිත විශේෂිත ටැගයන්" style="text-decoration:none">දෙවන කොටස</a>
+|
+<a href="web3.html" title="වෙබ් අඩවි නිර්මාණයේ භාවිත විශේෂිත ටැගයන්" style="text-decoration:none">තෙවන කොටස</a>
+</font>
+</th></tr>
+<tr><td style="background-color:#E1FFE9">
+<a style="text-decoration:none" href="#Start"><font color="green">ආරම්භය</font></a>
+|
+<a style="text-decoration:none" href="#Heading"><font color="green">මාතෘකා යෙදීම</font></a>
+|
+<a style="text-decoration:none" href="#Brakes"><font color="green">Line Brakes යෙදීම</font></a>
+|
+<a style="text-decoration:none" href="#Parag"><font color="green">ඡේද සැකසීම</font></a>
+|
+<a style="text-decoration:none" href="#Horaz"><font color="green">තිරස් රේඛා යෙදීම</font></a>
+|
+<a style="text-decoration:none" href="#Styles"><font color="green">අනුලක්ෂණ මොස්තර</font></a>
+|
+<a style="text-decoration:none" href="#Fonts"><font color="green">අක්ෂර ප්‍රමාණයන් සැකසීම හා වර්ණ යෙදීම</font></a>
+|
+<a style="text-decoration:none" href="#Lists"><font color="green">ලැයිස්තු යෙදීම</font></a>
+</td></tr>
+</table>
+<br>
+<a name="Start">
+<h2 style="background-color:#66CCFF"><tt>ආරම්භය:-</tt></h2>
+<p align="center">
+<img src="images/web_in_web.png" align=right>
+HTML භාෂාව යෙදා ගනිමින් වෙබ් අඩවි නිර්මාණය කිරීම සඳහා 
+<a href="images/notepad.png" target="_blank" title="Notepad හි අතුරු මුහුණත නරඹන්න">Notpad</a> 
+<tt>(Start / All Programs / Accessories / Notepad)</tt>
+ සංස්කරණය යෙදාගත හැකිය.
+</p>
+</tt>
+</font size>
+<p align="justify">
+             HTML යෙදා ගනිමින් වෙබ් අඩවි නිර්මාණයන් සඳහා අදාළ කේතයන් ලිවීමේ දී ඊට අදාළ සෑම ඛේතයක්ම < > සලකුණු අතර පිහිටුවිය යුතුය. සෑම 
+විටම කේතයන් ලිවීමේ දී ආරම්භය සඳහා <input style="border:none" type="text" readonly="readonly" size=3 value="<html>"> යෙදා ගනු ලබන 
+අතර අවසානයේ <input style="border:none" type="text" readonly="readonly" size=4 value="</html>"> ‍කේතය යෙදා ගනීයි. 
+මෙම උපදේශ කේතයන් සඳහා යොදා ගන්නා අක්ෂර සිම්පල් හෝ කැපිටල් හෝ යොදා ගත හැක.</p>
+<p align="justify">
+             <input style="border:none" type="text" readonly="readonly" size=3 value="<title>"> නමැති කේතය අනිවාර්යයෙන්ම 
+<input style="border:none" type="text" readonly="readonly" size=4 value="<head>"> කේත දෙක අතර ලිවිය යුතුය. 
+සෑම කේතයක්ම ආරම්භ කල ලෙසම / ලකුණ යොදා අවසාන කල යුතුය. වෙබ් පිටුවක අඩංගු තොරතුරු <input style="border:none" type="text" readonly="readonly" size=4 value="<body>"> 
+කේතය තුළ ලිවිය යුතුය.</p>
+<p align="center"><textarea readonly="readonly" cols="50" rows="7"><html>
+<head>
+<title>Web Page Title</title>
+</head>
+<body>
+Web Page Body
+</body>
+</html></textarea><br>
+<a href="example/ex_1.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+මෙම වැඩසටහන වෙබ් පිටුවක් ලෙස වෙබ් බ්‍රව්සරය තුල දිස්වන හෙයින් මෙය දෘඩ තැටියේ තැම්පත් කිරීම සඳහා පහත පියවර අනුගමනය කල යුතුය.
+<ol type=i start=i>
+<li>File → Save විධානය ලබා දෙන්න.</li>
+<li>එයට අවශ්‍ය නමක් ලබා දෙන්න.</li>
+<li>නමට අග .html හෝ .htm යන්න ගොනු දිගුව සඳහා ලබා දෙන්න.</li>
+<li>Save විධානය ක්‍රියාත්මක කරන්න.</li>
+</ol>
+පසුව මෙම වෙබ් පිටුව වෙබ් බ්‍රව්සරය තුල ක්‍රියාත්මක කර බැලීම සඳහා පහත පියවර අනුගමනය කල යුතුය.
+<ol type=i start=i>
+<li>වෙබ් බ්‍රව්සරය විවෘත කරන්න.</li>
+<li>File → Open File විධානය ලබා දෙන්න.</li>
+<li>ලැබෙන වින්ඩොව තුලින් ඔබ වෙබ් පිටුව තැම්පත් කල ස්ථානයට ගොස් එම ගොනුව තෝරන්න.</li>
+<li>Open විධානය ක්‍රියාත්මක කරන්න.</li>
+</ol>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Heading">
+<h2 style="background-color:#66CCFF"><tt>මාතෘකා යෙදීම:-</tt></h2>
+<p align="justify">
+<img src="images/head_in_web.png" align=right>
+             HTML භාෂාවෙහි වෙබ් අඩවිවලට අදාළ තොරතුරු, මාතෘකා හා උප මාතෘකා වශයෙන් වෙන් වෙන්ව දැක්වීම සඳහා 
+අකුරු ප්‍රමාණ ආකාර 6ක් ඊට අදාළ කේතයන් ලියමින් නිර්මාණය කල හැක. ඒවා නම් 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<h1>"> 
+සිට 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<h6>"> 
+දක්වා කේතයන්ය. එම සියලුම කේතයන් වැසිය යුතු අතර 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<h1>"> 
+සිට 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<h6>"> 
+දක්වා යන විට අක්ෂර ක්‍රමයෙන් කුඩා මාතෘකා බවට පත්වේ.
+<input style="border:none" type="text" readonly="readonly" size=1 value="<h1>"> 
+ප්‍රධාන මාතෘකා සඳහා යොදා ගන්නා අතර 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<h2>">
+සිට 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<h6>"> 
+දක්වා උප මාතෘකා සඳහා යෙදා ගනී. තවද මෙම මාතෘකා තද කලු අකුරෙන් (Blod) නිරූපිත වන අතර එම මාතෘකා පෙළ ගැස්වීම සඳහා උපදේශ කේත 3ක් ඇත.
+<ol type=1 start=1>
+<li>Left</li>
+<li>Right</li>
+<li>Center</li>
+</ol>
+</p>
+<p align="center"><textarea readonly="readonly" cols="50" rows="12"><html>
+<head>
+<title>Using Headings</title>
+</head>
+<body>
+<h1>Headings Type 1</h1>
+<h2>Headings Type 2</h2>
+<h3>Headings Type 3</h3>
+<h4>Headings Type 4</h4>
+<h5>Headings Type 5</h5>
+<h6>Headings Type 6</h6>
+</body>
+</html></textarea><br>
+<a href="example/ex_2.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Brakes">
+<h2 style="background-color:#66CCFF"><tt>Line Brakes යෙදීම:-</tt></h2>
+<p align="justify">
+<img src="images/brake_in_web.png" align=right>
+             වෙබ් පිටුවක එක් පේලියකින් අලුත් පේලියකට යාම සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<br>"> (Line Brake) 
+උප කේතය යෙදා ගනී. මෙහි දී පේලි අතර හිස් පේලියක් නොතබා ඊලඟ පේලියට ඉතිරි කොටස ගෙන ගොස් ලියනය කෙරෙයි. මෙය වැසීමට අවශ්‍ය නොවන කේතයකි. 
+එහෙයින් එය 'Empty Tag' එකක් ලෙසද හඳුන්වයි.
+<p align="center"><textarea readonly="readonly" cols="50" rows="12"><html>
+<head>
+<title>Using Headings</title>
+</head>
+<body>
+<h1 align=center>My Hobby</h1>
+My hobby is reading.
+<br>
+I read books.
+<br>
+It improves my knowledge
+</body>
+</html></textarea><br>
+<a href="example/ex_3.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Parag">
+<h2 style="background-color:#66CCFF"><tt>ඡේද සැකසීම:-</tt></h2>
+<p align="justify">
+<img src="images/p_in_web.png" align=right>
+             ඡේද වෙන් කිරීම හෝ පේලි දෙකක් අතර වැඩිපුර රූලක ඉඩක් තැබීම සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<p>"> 
+කේතය යෙදා ගනී. ඡේද පෙල ගැස්වීම සඳහා ද මෙම කේතය භාවිතා කල හැක. එම ආකාර 4කි.
+<ol type=1 start=1>
+<li>Left</li>
+<li>Right</li>
+<li>Center</li>
+<li>Justify</li>
+</ol>
+</p>
+<p align="center"><textarea readonly="readonly" cols="50" rows="12"><html>
+<head>
+<title>Using Paragraph Tag</title>
+</head>
+<body>
+<p>First Paragraph</p>
+<p>Second Paragraph</p>
+<p align=center>Center Paragraph</p>
+<p align=left>Left Paragraph</p>
+<p align=right>Right Paragraph</p>
+<p align=justify>Justify Paragraph</p>
+</body>
+</html></textarea><br>
+<a href="example/ex_4.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Horaz">
+<h2 style="background-color:#66CCFF"><tt>තිරස් රේඛා යෙදීම:-</tt></h2>
+<p align="justify">
+<img src="images/hr_in_web.png" align=right>
+             වෙබ් පිටුවක බාහිර ස්වරූපය අලංකාර කරගැනීම සඳහා තිරස් රේඛා යොදා ගනීයි. (Horizontal Rules) මේ සඳහා යොදා ගනු ගබන උපදේශ කේතය 
+වනුයේ <input style="border:none" type="text" readonly="readonly" size=1 value="<hr>">
+කේතයයි. මෙම උපදේශ කේතය නිදහස් ටැගයක් වන අතර එය අවසාන කිරීමට අවශ්‍ය නොවේ. මෙම තිරස් රේඛාව මගින් වෙබ් පිටුවෙහි කොටස් වෙන් කර 
+දැක්වීමට ද හැකිය. මෙම තිරස් රේඛා තව දුරටත් පැහැදිලිව යොදා ගැනීම සඳහා අනු උපදේශ කේත 5ක් එක් කරගත හැක.
+<ol type=1 start=1>
+<li><b>රේඛාවේ ඝනකම දැකිවීම:</b> මේ සඳහා size අනුඋපදේශ කේතය යොදා ගනී.</li>
+<li><b>රේඛාවේ දිග :</b> මෙහි දී දිග දැක්වීම සඳහා width අනුඋපදේශ කේතය යොදා ගන්නා අතර මෙය ආකාර 2කින් දැක්විය හැක.</li>
+</ol>
+<blockquote>
+   <li><b>රේඛාවේ දිග පික්සල් මගින් දැකිවීම:</b>     <input style="border:none" type="text" readonly="readonly" size=13 value="<hr width=50>"></li>
+   <li><b>රේඛාවේ දිග පරිගණක තිරයේ වෙබ් පිටුව දිස්වන ප්‍රමාණයෙහි ප්‍රතිශකයක් ලෙස:     <input style="border:none" type="text" readonly="readonly" size=13 value="<hr width=50%>"></b></li>
+</blockquote>
+</p>
+<p align="center"><textarea readonly="readonly" cols="50" rows="18"><html>
+<head>
+<title>Creat Horizontal Rules</title>
+</head>
+<body>
+No changers
+<hr>
+Size=10 Horizontal Rule
+<hr size=10>
+Width=70 in pixels Horizontal Rule
+<hr width=70>
+Width=70% in percentage Horizontal Rule
+<hr width=70%>
+Size=10 and width=40 in pixels Horizontal Rule
+<hr size=10 width=40>
+Size=10 and width=40% in percentage Horizontal Rule
+<hr size=10 width=40%>
+</body>
+</html></textarea><br>
+<a href="example/ex_5.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<ol type=1 start=3>
+<li><b>රේඛාවේ පෙළගැස්වීම:</b> මේ සඳහා align අනුඋපදේශ කේතය යොදා ගනී. එම පෙළගැස්වීම් ආකාර 3කි.</li>
+</ol>
+<blockquote>
+<ol type=1 start=1>
+<li>Left</li>
+<li>Right</li>
+<li>Center</li>
+</blockquote>
+</ol>
+<ol type=1 start=4>
+<li><b>රේඛාවේ සෙවනැලි ඇතිකිරීම:</b> සෙවනැලි ඇති කිරීමේ දී රේඛාව තද පැහැයෙන් දැක්වෙක අතර ඒ සඳහා nosade යන අනු ලක්ෂණ කේතය යෙදා ගනීයි.</li>
+<li><b>රේඛාවට වර්ණයක් යෙදීම:</b> වර්ණ යෙදීමේ දී වර්ණ සඳහාම වෙන්වූ කේත සමූහයක් ඇත. එම කේත ශඩ් දශමය ආකාරයෙන් ලිවිය යුතුය. එවැනි කේත කිහිපයක් පහත දැක්වේ.</li>
+</ol>
+<img src="images/color_code.png" title="ශඩ් දශමය ආකාරයෙන් වර්ණ ලිවීම." align="right">
+<table border=0>
+<tr bgcolor="#FFFFFF">
+<td>White #FFFFFF</td>
+</tr>
+<tr bgcolor="#FFFFFO">
+<td>Lvory #FFFFFO</td>
+</tr>
+<tr bgcolor="#E6E8FA">
+<td>Silver #E6E8FA</td>
+</tr>
+<tr bgcolor="#3299CC">
+<td>Sky Blue #3299CC</td>
+</tr>
+<tr bgcolor="#OOOOFF">
+<td>Blue #OOOOFF</td>
+</tr>
+<tr bgcolor="#871F78">
+<td>Purple #871F78</td>
+</tr>
+<tr bgcolor="#FFOOFF">
+<td>Magenta #FFOOFF</td>
+</tr>
+<tr bgcolor="#FF6EC7">
+<td>Neon Pink #FF6EC7</td>
+</tr>
+<tr bgcolor="#FFOOOO">
+<td>Red #FFOOOO</td>
+</tr>
+<tr bgcolor="#FFFFOO">
+<td>Yellow #FFFFOO</td>
+</tr>
+<tr bgcolor="#OOFFOO">
+<td>Green #OOFFOO</td>
+</tr>
+<tr bgcolor="#FF7FOO">
+<td>Orange #FF7FOO</td>
+</tr>
+<tr bgcolor="#CD7F32">
+<td>Gold #CD7F32</td>
+</tr>
+<tr bgcolor="#B87333">
+<td>Cooper #B87333</td>
+</tr>
+<tr bgcolor="#OOOOOO">
+<td><font color="#FFFFFF">Black #OOOOOO</font></td>
+</tr>
+</table>
+<p align="justify">
+             ඉහත සඳහන් කරන ලද කේතයන් උපයෝගී කරගෙන රේඛා සඳහා වර්ණ යෙදීම සිදු කළ හැක.
+<input style="border:none" type="text" readonly="readonly" size=20 value="<hr color=''#FF7FOO''>">
+</p>
+<img title="අවධානයයි !" src="images/warning.png" width=30 align="center">
+වර්ණ යෙදීම සඳහා භාවිතා කරනු ලබන color කේතය පරිගණක භාෂාවට අනුව u අක්ෂරය ඉවත් වේ. එබැවින් color යන්න යෙදේ.
+<p align="center"><textarea readonly="readonly" cols="55" rows="15"><html>
+<head>
+<title>Creat Horizontal Rules Part 2</title>
+</head>
+<body>
+Size=20 Horizontal Rule
+<hr size=20>
+Size=20 noshade Horizontal Rule
+<hr size=20 noshade>
+Width=200 in pixels right Horizontal Rule
+<hr width=200 align="right">
+Width=200 in pixels left and green color Horizontal Rule
+<hr width=200 align="left" color="#OOFFOO">
+</body>
+</html></textarea><br>
+<a href="example/ex_6.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Styles">
+<h2 style="background-color:#66CCFF"><tt>අනුලක්ෂණ මොස්තර යෙදීම:-</tt></h2>
+<img src="images/style_in_web.png" align=right>
+<table border=1>
+<tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<big>___</big>">
+</td>
+<td>
+අකුරුවල ප්‍රමාණය විශාල කර දක්වයි.
+</td>
+</tr>
+<tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<small>___</small>">
+</td>
+<td>
+අකුරුවල ප්‍රමාණය කුඩා කර දක්වයි.
+</td>
+</tr>
+<tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<sup>___</sup>">
+</td>
+<td>
+Superscript ආකාරයට පෙන්වයි.
+</td>
+</tr>
+<tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<sub>___</sub>">
+</td>
+<td>
+Subscript ආකාරයට පෙන්වයි.
+</td>
+</tr>
+<tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<cite>___</cite>">
+</td>
+<td>
+අකුරු තරමක් ලොකුවට Italic කර දක්වයි.
+</td>
+</tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<code>___</code>">
+</td>
+<td>
+පරිගණක වැඩසටහන්වල ඇති අක්ෂර දිස්වන ආකාරයට එකම ප්‍රමාණයකින් දක්වයි.
+</td>
+</tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<em>___</em>">
+</td>
+<td>
+අකුරු  Italic කර දක්වයි.
+</td>
+</tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<kbd>___</kbd>">
+</td>
+<td>
+ටයිප්රයිටරයක දක්නට ලැබෙන ආකාරයට අක්ෂර දක්වයි.
+</td>
+</tr>
+<td>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<blink>___</blink>">
+</td>
+<td>
+අක්ෂර නිවි නිවී දැල්වෙන අයුරින් දිස්වෙයි.
+</td>
+</tr>
+</table>
+<a href="example/ex_7.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+<br>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Fonts">
+<h2 style="background-color:#66CCFF"><tt>අක්ෂර ප්‍රමාණයන් සැකසීම හා වර්ණ යෙදීම:-</tt></h2>
+<img src="images/font_in_web.png" align=right>
+<h3><tt><li>අක්ෂර ප්‍රමාණයන් සැකසීම</li></tt></h3>
+<p align="justify">
+             අකුරුවල ප්‍රමාණ දැක්වීම සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=7 value="<font size>">
+අනු උපදේශ කේතය යෙදා ගනීයි. 1 සිට 7 දක්වා අකුරු ප්‍රමාණයන් මෙමගින් වෙනස් කළ හැක.
+<li>1 හා 2 කුඩා ප්‍රමාණ සඳහා ද</li>
+<li>3 සාමාන්‍ය ප්‍රමාණය සඳහා ද</li>
+<li>4 සිට 7 දක්වා විශාල ප්‍රමාණ සඳහා ද</li>
+             යෙදා ගත හැක. මෙම ටැගය අවසාන කිරීමේ දී 
+<input style="border:none" type="text" readonly="readonly" size=4 value="</font>">
+යනුවෙන් අවසාන කරනු ලබයි.
+</p>
+<h3><tt><li>අක්ෂර සඳහා වර්ණ යෙදීම</li></tt></h3>
+<p align="justify">
+             අකුරුවලට වර්ණ යෙදීමේ දී <input style="border:none" type="text" readonly="readonly" size=3 value="<font>">
+සමග යෙදෙන අනු උපදේශ කේතය color වේ. <b>(ඉහත සඳහන් අයුරින් පරිගණක භෂාවල දී colour යන්න u අක්ෂරය ඉවත්ව color ලෙස යෙදේ.)</b>
+වර්ණයක් දැක්වීමේ දී පෙර සඳහන් අයුරින් ෂඩ් දශමය ආකාරය යෙදා ගනු ලබයි.
+<br>
+<input style="border:none" type="text" readonly="readonly" size=25 value="<font color=''#FF7FOO''>">
+(#FF7FOO යනු තැඹිලි වර්ණයයි.)
+</p>
+<p align="justify">
+             ඉහත සඳහන් අනු උපදේශ කේත දෙකම එක වර යෙදා ගත හැක.
+</p>
+<p align="center"><textarea readonly="readonly" cols="50" rows="13"><html>
+<head>
+<title>Text Size & Color</title>
+</head>
+<body>
+<font size=1 color="#OOOOOO"> Text 1 </font>
+<font size=2 color="#B87333"> Text 2 </font>
+<font size=3 color="#CD7F32"> Text 3 </font>
+<font size=4 color="#FF7FOO"> Text 4 </font>
+<font size=5 color="#OOFFOO"> Text 5 </font>
+<font size=6 color="#FFFFOO"> Text 6 </font>
+<font size=7 color="#FFOOOO"> Text 7 </font>
+</body>
+</html></textarea><br>
+<a href="example/ex_8.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Lists">
+<h2 style="background-color:#66CCFF"><tt>ලැයිස්තු යෙදීම:-</tt></h2>
+<p align="justify">
+<img src="images/list_in_web.png" align=right>
+             වෙබ් අඩවි සැකසීමේ දී තොරතුරු වාර්තා කිරීම සඳහා ලැයිස්තු සකස් කිරීමට සිදු වේ. මෙම ලැයිස්තු සකස් කිරීමේ දී ප්‍රධාන ආකාර තුනක් යොදා ගත හැක.
+<ol>
+<li> අංක සහිත ලැයිස්තු (Ordered List)
+<li> අංක රහිත ලැයිස්තු (Unordered List)
+<li> විස්තර සහිත ලැයිස්තු (Definition List)
+</ol>
+</p>
+<p>
+<dl>
+<dt><b>අංක සහිත ලැයිස්තු (Ordered List) :</b></dt>
+<dd>
+             අංක සහිත ලැයිස්තු <input style="border:none" type="text" readonly="readonly" size=1 value="<ol>">
+ උපදේශ කේතය මගින් ආරම්භ කෙරෙන අතර ලැයිස්තුවේ සෑම අයිතමයක්ම 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<li>"> 
+උපදේශ කේතයෙන් යෙදිය යුතුය. එලෙසම අවසානයේ <input style="border:none" type="text" readonly="readonly" size=2 value="‍</ol>"> 
+කේතයෙන් ලැයිස්තුව අවසන් කළ යුතුය. මෙහි දී 1, 2, 3 ලෙස අංක සඳහන් වන අතර එම ක්‍රමය වෙනස් කිරීමට අවශ්‍ය නම් 
+පහත කේතය යොදා ගත හැක.
+<br>
+<input style="border:none" type="text" readonly="readonly" size=19 value="<ol type=1 strat=3>"> 
+<br>
+මෙහි දී 1, 2, 3 ආකාරයටම ලැයිස්තු අංකනය වන අතර ලැයිස්තුව ආරම්භ වන්නේ 3 ඉලක්කමේ සිටය. ඉලක්කම් වෙනුවට රෝම අංක හෝ ඉංග්‍රීසි හෝඩියේ 
+අක්ෂර යෙදීමට පහත ලෙස භාවිත වේ.
+<br>
+<input style="border:none" type="text" readonly="readonly" size=19 value="<ol type=A strat=A>"> (ඉංග්‍රීසි අක්ෂර / ආරම්භය A සිට)
+<br>
+<input style="border:none" type="text" readonly="readonly" size=19 value="<ol type=i strat=i>"> (රෝම ඉලක්කම් / ආරම්භය i සිට)
+<p align="center"><textarea readonly="readonly" cols="50" rows="18"><html>
+<head>
+<title>Using Ordered List</title>
+</head>
+<body>
+<ol type=1 start=1>
+<li>Number 1
+<li>Number 2
+</ol>
+<ol type=i start=i>
+<li>Roman 1
+<li>Roman 2
+</ol>
+<ol type=a start=a>
+<li>Letter 1
+<li>Letter 2
+</ol>
+</body>
+</html></textarea><br>
+<a href="example/ex_9.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+</dd>
+<dt><b>අංක රහිත ලැයිස්තු (Unordered List) :</b></dt>
+<dd>
+             ලැයිස්තු සකස් කිරීමේ දී අංක හෝ අක්ෂර භාවිත නොකරන අවස්ථාවල දී ඒ වෙනුවට සංඛේත භාවිත කරයි. 
+එ වැනි අවස්ථාවල දී <input style="border:none" type="text" readonly="readonly" size=1 value="<ul>"> 
+උපදේශ කේතය යෙදා ගැනෙන අතර අවසානයේ දී <input style="border:none" type="text" readonly="readonly" size=2 value="</ul>"> 
+යෙදනු ලැබේ. සාමාන්‍යෙයන් <input style="border:none" type="text" readonly="readonly" size=1 value="<ul>"> 
+යෙදාගත් විට, 
+<ul><li> හැඩයෙන් යුක්ත ලැයිස්තුවක් දිස්වේ. මෙම හැඩය පහත පරිදි වෙනස් කළ හැක.
+</ul> 
+<br>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<ul type=cricle>"> (මැද හිස් වෘත්තයක හැඩයක් ලැබීම)
+<br>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<ul type=square>"> (චතුරස්‍රයක හැඩයක් ලැබීම)
+<br>
+<p align="center"><textarea readonly="readonly" cols="50" rows="12"><html>
+<head>
+<title>Using Unordered List</title>
+</head>
+<body>
+<ul type=circle>
+<li>Cricle List
+</ul>
+<ul type=square>
+<li>Square List
+</ul>
+</body>
+</html></textarea><br>
+<a href="example/ex_10.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+</dd>
+<dt><b>විස්තර සහිත ලැයිස්තු (Definition List) :</b></dt>
+<dd>
+             යම් කිසි වචනයන් පිළිබඳ විස්තර දැක්වීමේ දී මෙය යෙදා ගනී. එය 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<dl>"> 
+උපදේශ කේතය මගින් ආරම්භ වී අවසන් කිරීමට 
+<input style="border:none" type="text" readonly="readonly" size=2 value="</dl>"> 
+ලෙස යොදනු ලබයි. විග්‍රහ කිරීමේ දී හෝ විස්තර කිරීමේ දී 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<dl>"> 
+මගින් ආරම්භ කර විග්‍රහ කරන වචනය හෝ මාතෘකාව සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<dt>"> 
+ද විග්‍රහය සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=2 value="<dd>"> 
+ද යෙදා ගනී.
+<br>
+<input style="border:none" type="text" readonly="readonly" size=7 value="<dl>"> (විස්තරයක් සහිත ලැයිස්තුව දක්වයි)
+<br>
+<input style="border:none" type="text" readonly="readonly" size=7 value="<dt>"> (විස්තර කෙරෙන අයිතමය දක්වයි)
+<br>
+<input style="border:none" type="text" readonly="readonly" size=7 value="<dd>"> (විස්තරය දක්වයි)
+<br>
+<p align="center"><textarea readonly="readonly" cols="50" rows="12"><html>
+<head>
+<title>Using Definition List</title>
+</head>
+<body>
+<dl>
+<dt>Name 1</dt>
+<dd>Description Of Name 1</dd>
+<dt>Name 2</dt>
+<dd>Description Of Name 2</dd>
+</dl>
+</body>
+</html></textarea><br>
+<a href="example/ex_11.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+</dd>
+</dl>
+</p>
+</p>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<br><br>
+<p align="jusify">             ඉහතින් සඳහන් වූ <a style="text-decoration:none" href="#Heading">මාතෘකා යෙදීම</a>, 
+<a style="text-decoration:none" href="#Brakes">Line Brakes යෙදීම</a>, 
+<a style="text-decoration:none" href="#Parag">ඡේද සැකසීම</a>, 
+<a style="text-decoration:none" href="#Horaz">තිරස් රේඛා යෙදීම</a>, 
+<a style="text-decoration:none" href="#Styles">අනුලක්ෂණ මොස්තර යෙදීම</a>, 
+<a style="text-decoration:none" href="#Fonts">අක්ෂර ප්‍රමාණයන් සැකසීම හා වර්ණ යෙදීම</a>, 
+<a style="text-decoration:none" href="#Lists">ලැයිස්තු යෙදීම</a> ආදී ක්‍රමවේදයන් භාවිතයෙන් වෙබ් අඩවිය තුළ 
+විවිධ අලංකාර වූ නිර්මාණ සිදු කිරීමට පුහුණු විය යුතුය. ඒවා ඉදිරියෙන් ඇති එක් එක් ටැගයන් සඳහාද (උදා: වගු නිර්මාණය, සම්බන්ධතා නිර්මාණය .... වැනි ටැග සඳහා ද) යෙදා ගත හැක.
+</p>
+<p align="center"><a href="web2.html" style="text-decoration:none">දෙවන කොටසට >></a></p>
+<hr color="#OOOOOO" size=5 width="80%">
+<address>
+නිර්මාණය: <b>දේශාන් නවාංජන</b>
+</address>
+</body>
+</html>

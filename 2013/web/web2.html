@@ -1,0 +1,265 @@
+﻿<html>
+<head>
+<title>බහුමාධ්‍ය තාක්ෂණය සහිත වෙබ් අඩවි නිර්මාණය</title>
+</head>
+<body background="images/background.png" style="background-repeat:no-repeat" link="#0066FF" alink="#FF0000" vlink="#0066FF">
+<a name="Menus">
+</a>
+<a href="ime/ime.html" target="_blank"><img align="right" src="ime/ime.png" title="Sinhala Tamil IME මෘදුකාංගය ලබාගන්න"  border="0"></a>
+<a href="firefox/firefox.html" target="_blank"><img align="right" src="firefox/firefox.png" title="Mozilla Firefox මෘදුකාංගය ලබාගන්න"  border="0"></a>
+<center>
+<h1><img src="images/earth.png"> බහුමාධ්‍ය තාක්ෂණය සහිත වෙබ් අඩවි නිර්මාණය</h1>
+</center>
+<center>
+<img src="menu/3.png" border="0" usemap="#buttonbar">
+<map name="buttonbar">
+<a href="index.html" shape="rect" coords="37,13,183,71"></a>
+<a href="html.html" shape="rect" coords="190,13,411,71"></a>
+<a href="web.html" shape="rect" coords="417,13,641,71"></a>
+</map>
+</center>
+<hr color="#OOOOOO" size=5 width="80%">
+<tt>
+<a href="codes/web_codes.html" target="_blank"><img src="images/view_source.png" align="right" border=0></a>
+<font size=5>
+<font color="#0066CC">
+HTML (Hyper Text Markup Language) යොදා ගනිමින් සරළ වෙබ් අඩවියක් නිර්මාණය කරගැනීම:
+</font color>
+</font size>
+</tt>
+<br><br>
+<table width="80%" border=3 style="border-color:#00CC33">
+<tr><th style="background-color:#E1FFE9">
+<font size=4>
+<a href="web.html" title="වෙබ් අඩවි නිර්මාණයේ  මූලික කොටස්" style="text-decoration:none">පළමු කොටස</a>
+|
+<a href="web2.html" title="වෙබ් අඩවි නිර්මාණයේ භාවිත විශේෂිත ටැගයන්" style="text-decoration:none"><font color="red">දෙවන කොටස</font></a>
+|
+<a href="web3.html" title="වෙබ් අඩවි නිර්මාණය සඳහා මෘදුකාංගය" style="text-decoration:none">තෙවන කොටස</a>
+</font></th></tr>
+<tr><td style="background-color:#E1FFE9">
+<a style="text-decoration:none" href="#Tables"><font color="green">වගු ඇතුලත් කිරීම</font></a>
+|
+<a style="text-decoration:none" href="#Image"><font color="green">ඡායාරූප ඇතුලත් කිරීම</font></a>
+</td></tr>
+</table>
+<br>
+<a name="Tables">
+<h2 style="background-color:#66CCFF"><tt>වගු ඇතුලත් කිරීම:-</tt></h2>
+<p align="justify">
+<img src="images/table_in_web.png" align=right>
+             වෙබ් පිටු සකස් කිරීමේ දී වගු යොදා ගැනීමට සිදු වේ. වගු නිර්මාණය කිරීමේ දී 
+<input style="border:none" type="text" readonly="readonly" size=4 value="<table>"> 
+යන උපදේශ කේතය භාවිත කරන අතර එම වගුව අවසන් කිරීම සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=5 value="</table>"> 
+යෙදා ගනී. සෑම පේළියක් හඳුන්වාදීම සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<tr>"> 
+(Table Row) උපදේශ කේතය යෙදා ගත යුතුය. සෑම කොෂයක් සඳහාම, එනම් දත්ත වෙන වෙනම ඇතුළු කිරීම සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<td>"> 
+උපදේශ කේතය යෙදා ගත යුතුය. අවශ්‍ය වූ විට දී වගුව සඳහා මාතෘකා යෙදීමට 
+<input style="border:none" type="text" readonly="readonly" size=1 value="<th>"> 
+(Table Heading) උපදේශ කේතය යෙදා ගැනේ. වගුවේ දාරයේ ප්‍රමාණය සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=4 value="<table>"> 
+කේතය තුළ <input style="border:none" type="text" readonly="readonly" size=14 value="<table border=1>"> 
+ ලෙස ප්‍රමාණය දැක්විය යුතුය.
+<p align="center"><textarea style="background-color:#FEFCE0;border-color:orange" readonly="readonly" cols="50" rows="20"><html>
+<head>
+<title>Using Table Tags</title>
+</head>
+<body>
+<table border=1>
+<tr>
+<th>Head 1</th>
+<th>Head 2</th>
+</tr>
+<tr>
+<td>Data 1</td>
+<td>data 2</td>
+</tr>
+<tr>
+<td>Data 3</td>
+<td>data 4</td>
+</tr>
+</table>
+</body>
+</html></textarea><br>
+<a href="example/ex_12.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<p align="justify">
+             තව ද  වගු ඇතුළත් කිරීමේ දී කෝෂ (දත්ත ඇත්ළත් වන කවුළු) එක්නෙකට බද්ධ කොට නිර්මාණය කිරීමට සිදු වේ. එවැනි අවස්තා වල දී පහත ක්‍රමවේද 
+අනුගමනය කළ හැක.</p>
+<dl>
+<dt>තිරස් අතට කෝෂ සම්බන්ධ කිරීමට පහත පරිදි භාවිත වේ.</dt>
+<dd><input style="border:none" type="text" readonly="readonly" size=15 value="<td colspan=4>"> (කෝෂ 4ක් එකට සම්බන්ධ වේ)</dd>
+<dt>සිරස් අතට කෝෂ සම්බන්ධ කිරීමට පහත පරිදි භාවිත වේ.</dt>
+<dd><input style="border:none" type="text" readonly="readonly" size=15 value="<td rowspan=4>"> (කෝෂ 4ක් එකට සම්බන්ධ වේ)</dd>
+</dl>
+<p align="center"><textarea style="background-color:#FEFCE0;border-color:orange" readonly="readonly" cols="50" rows="22"><html>
+<head>
+<title>Using Table Tags</title>
+</head>
+<body>
+<table border=1>
+<tr>
+<th>Head 1</th>
+<th>Head 2</th>
+</tr>
+<tr>
+<td colspan=2>Data 1</td>
+</tr>
+<tr>
+<td rowspan=2>Data 2</td>
+<td>data 3</td>
+</tr>
+<tr>
+<td>data 4</td>
+</tr>
+</table>
+</body>
+</html></textarea><br>
+<a href="example/ex_13.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<h3>වගු සඳහා මාතෘකාවක් යෙදීම:</h3>
+<p align="justify">
+             අවශ්‍ය වූ විට වගු සඳහා එයට නියමිත වූ මාතෘකා යෙදවීමට හැකිය. මෙම මාතෘකා,
+<ol type=1 start=1>
+<li>වගුවට උඩ (Top Of Table)
+<li>වගුව මැද (Middle Of Table)
+<li>වගුවට යට (Bottom Of Table)
+</ol>
+වශයෙන් භාවිත වේ. මේ සඳහා 
+<input style="border:none" type="text" readonly="readonly" size=7 value="<caption>"> 
+යන අනු කේතය යොද ගත හැකි අතර <input style="border:none" type="text" readonly="readonly" size=19 value="<caption align=''top''>"> 
+ආදී වශයෙන් යෙදීමෙන් මාතෘකාවෙහි පිහිටීම වෙනස් කළ හැක. මෙහි Top යන වචනය middle, bottom ලෙස ද  වෙනස් කළ හැක.
+</p>
+<p align="center"><textarea style="background-color:#FEFCE0;border-color:orange" readonly="readonly" cols="50" rows="17"><html>
+<head>
+<title>Using Table Tags</title>
+</head>
+<body>
+<table border=1>
+<caption align="top">Caption of the table</caption>
+<tr>
+<th>Head 1</th>
+<th>Head 2</th>
+</tr>
+<tr>
+<td>Data 1</td>
+<td>data 2</td>
+</tr>
+</table>
+</body>
+</html></textarea><br>
+<a href="example/ex_14.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<h3>වගුවෙහි දාරය සැකසීම:</h3>
+<p align="justify">
+             ඕනෑම වගුවක් සඳහා ඒ වටා රේඛා හෝ දාර දැක්විය යුතුය. මේ සඳහා යොදා ගන්නා අගයේ ප්‍රමාණය Pixel වලින් යෙදේ.
+<br>
+<input style="border:none" type="text" readonly="readonly" size=15 value="<table border=3>"> 
+</p>
+<h3>වගුව තිරයහි මධ්‍යගත කිරීම:</h3>
+<p align="justify">
+             මේ සඳහා වගුවට අදාළ සියලු කේත දෙපසට 
+<input style="border:none" type="text" readonly="readonly" size=17 value="<center>...</center>"> 
+ලෙස යෙදිය යුතුය.
+</p>
+<h3>කොෂයක් හා දත්ත අතර ඉඩ සැකසීම:</h3>
+<p align="justify">
+             මෙහි දී එක් කොෂයක් තුළ ඇති දත්ත සහ එම කෝෂයේ දාරය අතර දුර නිෂ්චිත ප්‍රමණයක් ලබා දිය හැක.
+<br>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<table cellpadding=5>"> 
+</p>
+<h3>කොෂ අතර ඉඩ සැකසීම:</h3>
+<p align="justify">
+             මේ සඳහා පහත කේතය යොදා ගනී.
+<br>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<table cellspacing=5>"> 
+</p>
+<h3>වගුවෙහි මුලු දිග සැකසීම:</h3>
+<p align="justify">
+             වගුවෙහි මුලු දිග සැකසීම ක්‍රම දෙකකට සිදු කළ හැක.
+<ol type=1 start=1>
+<li>වගුවෙහි මුලු දිග Pixel වලින් දැක්වීම: 
+<input style="border:none" type="text" readonly="readonly" size=20 value="<table width=70>"> 
+<li>වගුවෙහි මුලු දිග වෙබ් කවුළුවෙහි ප්‍රතිශතයක් ලෙස දැකිවීම දැක්වීම: 
+<input style="border:none" type="text" readonly="readonly" size=20 value="<table width=70%>"> 
+</ol>
+</p>
+<h3>වගුවෙහි දත්ත පෙළගැස්වීම:</h3>
+<p align="justify">
+             වගුවක දත්ත පෙළගැස්වීම සඳහා ආකාර දෙකක් භාවිත වේ.
+<ol type=1 start=1>
+<li>පේළියක ඇති දත්ත පෙළගැස්වීම.</li>
+මෙය ආකාර 3කි.
+<br>
+1- Center<br>
+2- Right<br>
+3- Left<br>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<tr align=''center''>"> 
+<br>
+<li>තීරුවත් තුළ ඇති දත්ත පෙළගැස්වීම.</li>
+මෙය ආකාර 3කි.
+<br>
+1- Top<br>
+2- Middle<br>
+3- Bottom<br>
+<input style="border:none" type="text" readonly="readonly" size=20 value="<tr valign=''bottom''>"> 
+<br>
+</ol>
+</p>
+<p align="center"><textarea style="background-color:#FEFCE0;border-color:orange" readonly="readonly" cols="55" rows="22"><html>
+<head>
+<title>Using Table Tags</title>
+</head>
+<body>
+<center>
+<table cellpadding=8 cellspacing=20 width=90% border=1>
+<tr>
+<th>Head 1</th>
+<th>Head 2</th>
+</tr>
+<tr align="center">
+<td>Data 1</td>
+<td>Data 2</td>
+</tr>
+<tr valign="bottom">
+<td>Data 3</td>
+<td>Data 4</td>
+</tr>
+</table>
+</center>
+</body>
+</html></textarea><br>
+<a href="example/ex_15.html" title="මෙම කේතවල වෙබ් පිටුව නරඹන්න" target="_blank">මෙම කේතවල වෙබ් පිටුව නරඹන්න</a>
+</p>
+<a href="#Menus"><font size=3>නැවත පටුනට</font></a>
+</a>
+<a name="Image">
+<h2 style="background-color:#66CCFF"><tt>ඡායාරූප ඇතුලත් කිරීම:-</tt></h2>
+<p align="justify">
+<img src="images/image_in_web.png" align=right>
+             වෙබ් පිටුවලට ඡායාරූප චිත්‍ර ඇතුලත් කිරීමට හැකිය. ඒ තුළින් වෙබ් පිටුවේ මූල්‍යමය හා ගුණාත්මක වටිනාකම වැඩි වී තිබේ. එලෙසම වැඩියෙන් චිත්‍ර හො ඡායාරූප යෙදා ගැනීමෙන් එම තොරතුරු හුවමාරු 
+කිරීමට වැඩි කාලයක් ගත වේ. වෙබ් පිටු සකස් කිරීම සඳහා භාවිතා කරනු ලබන චිත්‍ර හෝ ඡායාරූප පරිගණකවල තැම්පත් කර තැබීම සඳහා අනුමත කරගනු ලැබූ ප්‍රචලිත ආකාර 2කි.
+<ol type=1 start=1>
+<li><a target="_blank" title="GIF ගොනුවක් නරඹන්න" href="picture_types/gif.gif">GIF - Graphics Interchange Format</a>
+<li><a target="_blank" title="JPEG ගොනුවක් නරඹන්න" href="picture_types/jpg.jpg">JPEG - Joint Photographic Expert Group</a>
+</ol>
+</p>
+<p align="justify">
+             මෙලෙසම අවශ්‍ය චිත්‍ර තමන්ගේ පරිගණකයේ පමණක් නොව වෙනත් තැනක ඇති පරිගණකයක හෝ අන්තර්ජාලයට සම්බන්ධ වී ඇති ඕනෑම පරිගණකයක සිට ද ලබා ගත හැක. පරිගණකගත කරන ලද 
+ඡායාරූපයක් වෙබ් පිටුවට ඇතුලත් කිරීම සඳහා යෙදා ගන්නා විට 
+<input style="border:none" type="text" readonly="readonly" size=4 value="<img>"> 
+නම් වූ උපදේශ කේතය භාවිත වේ. මෙහි දී 
+<input style="border:none" type="text" readonly="readonly" size=4 value="<img>"> 
+උපදේශ කේතය යටතේ src නම් අනු උපදේශ කේතය ඔබ ඇතුලු කිරීමට බලාපොරොත්තු වන ඡායාරූපයෙහි නම හා එහි ගොනු දිගුව ආදේශ කළ යුතුය.
+</p><br>
+උදා:- ඔබේ පරිගණකයේ එකම විවරයක් (Folder) තුළ ඔබ සකසා ඇති වෙබ් පිටුව හා Seegiriya.jpg නම් ඡායාරූපයක් ඇතැයි සිතන්න. එවිට වෙබ් පිටුවෙහි පහත පරිදි කේතයක් ලියූ විට 
+ එම ඡායාරූපය වෙබ් පිටුවේ දිස් වේ.
+<input style="border:none" type="text" readonly="readonly" size=40 value="<img src=''Seegiriya.jpg''>"> 
+<br><br>
+උදා:-වෙබ් අඩවියක ඇති පින්තූරයක ලිපිනය පහත පරිදි යැයි සිතන්න.<br>
+<code>http://schoolnet.lk/science.jpg</code><br>
+මෙම පින්තූරය ඔබේ වෙබ් අඩවියේ දිස් වීමට සැලැස්වීමට පහත පරිදි කේත ලිවිය යුතුය.<br>
+<input style="border:none" type="text" readonly="readonly" size=40 value="<img src=''http://schoolnet.lk/science.jpg''>"> 
+<a href="example/ex_16.html" title="උදාහරණයක වෙබ් පිටුවක් නරඹන්න" target="_blank">උදාහරණයක වෙබ් පිටුවක් නරඹන්න</a>

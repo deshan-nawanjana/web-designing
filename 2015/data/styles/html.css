@@ -1,0 +1,46 @@
+<style>
+.q_title {
+	box-shadow: 0px 0px 4px gray;
+	border-radius: 20px 20px 20px 20px;
+	width: 80%;
+	height: 400;
+	background: #009F3C;
+	font-family:Calibri;
+}
+
+.q_face {
+	box-shadow: 0px 0px 4px gray;
+	border-radius: 0px 0px 20px 20px;
+	width: 100%;
+	height: 90%;
+	background: #3C3C3C;
+	font-family:Calibri;
+}
+.q_color {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-shadow: 1px 1px 4px #000000;
+	font-family:Calibri;
+}
+.p_color {
+	color: #FFFFFF;
+	font-size: 17px;
+	text-shadow: 1px 1px 4px #000000;
+	font-family:Calibri;
+}
+.ans_style {
+	color: #FFFFFF;
+	background: #3C3C3C;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	font-family:Calibri;
+	transition-property: text-shadow, color;
+	font-family:Calibri;
+	transition-duration: 0.5s;
+}
+.ans_style:hover {
+	color: #0066CC;
+	text-shadow: 2px 0px 3px #000000;
+}
+</style>
